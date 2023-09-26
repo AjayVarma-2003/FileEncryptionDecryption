@@ -5,6 +5,7 @@ This is CPP project to encrypt and decrypt the given file
 Following are some instructions about it :
 1.We use OpenSSL's PBKDF2 function to derive a secure encryption key from a password and a random salt.
   So for this firstly install openssl in your device
+  
 2.The salt is generated randomly and saved in the output file, which is essential for decryption.
 
   What is Salt :
